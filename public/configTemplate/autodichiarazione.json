@@ -1,0 +1,152 @@
+{
+    "sottoscritto": {
+        "type" : "text",
+        "x":145,
+        "y":175,
+        "align": "left"
+    },
+    "natoilDDMMYYYY": {
+        "type" : "date",
+        "day" : {
+            "x":395,
+            "y":175
+        },
+        "month" : {
+            "x":425,
+            "y":175
+        },
+        "year" : {
+            "x":455,
+            "y":175
+        },
+        "align": "left"
+    },
+    "natoa": {
+        "type" : "text",
+        "x":70,
+        "y":188,
+        "align": "left"
+    },
+    "provincia": {
+        "type" : "text",
+        "x":245,
+        "y":188,
+        "align": "left"
+    },
+    "residenteIn": {
+        "type" : "text",
+        "x":330,
+        "y":188,
+        "align": "left"
+    },
+    "residenteProvincia": {
+        "type" : "text",
+        "x":470,
+        "y":188,
+        "align": "left"
+    },
+    "residenteVia": {
+        "type" : "text",
+        "x":75,
+        "y":201,
+        "align": "left"
+    },
+    "domiciliatoIn": {
+        "type" : "text",
+        "x":315,
+        "y":201,
+        "align": "left"
+    },
+    "domiciliatoProvincia": {
+        "type" : "text",
+        "x":470,
+        "y":201,
+        "align": "left"
+    },
+    "domiciliatoVia": {
+        "type" : "text",
+        "x":75,
+        "y":214,
+        "align": "left"
+    },
+    "identificativo": {
+        "type" : "text",
+        "x":345,
+        "y":214,
+        "align": "left"
+    },
+    "identificativoN": {
+        "type" : "text",
+        "x":75,
+        "y":227,
+        "align": "left"
+    },
+    "identificativoRilasciato": {
+        "type" : "text",
+        "x":285,
+        "y":227,
+        "align": "left"
+    },
+    "identificativoDataDDMMYYYY": {
+        "type" : "date",
+        "day" : {
+            "x":95,
+            "y":240
+        },
+        "month" : {
+            "x":130,
+            "y":240
+        },
+        "year" : {
+            "x":165,
+            "y":240
+        },
+        "align": "left"
+    },
+    "utenzatelefonica": {
+        "type" : "text",
+        "x":290,
+        "y":240,
+        "align": "left"
+    },
+    "spostamento" : {
+        "type" : "radio",
+        "checkChar" : "X",
+        "A" : {
+	        "x":74,
+        	"y":495
+        },
+        "B" : {
+	        "x":74,
+        	"y":512
+        },
+        "C" : {
+	        "x":74,
+        	"y":530
+        }
+    },
+    "motivoSpostamento": {
+        "type" : "text",
+        "x":70,
+        "y":580,
+        "align": "left"
+    },
+    "spostamentoInizio": {
+        "type" : "text",
+        "x":70,
+        "y":615,
+        "align": "left"
+    },
+    "spostamentoDestinazione": {
+        "type" : "text",
+        "x":70,
+        "y":655,
+        "align": "left"
+    },
+    "dichiarazioneSpostamento": {
+        "type" : "text",
+        "x":70,
+        "y":695,
+        "align": "left"
+    }
+}
