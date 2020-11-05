@@ -4,7 +4,8 @@
     <center>
     <div class="title">
     <img src="images/docs.png" class="imageIcon"><br/>
-    AUTODICHIARAZIONE AI SENSI DEGLI ARTT. 46, 47 e 76 D.P.R N. 445/2000
+    AUTODICHIARAZIONE AI SENSI DEGLI ARTT. 46, 47 D.P.R N. 445/2000
+    <br/>(aggiornato il 26/10/2020)
     </div>
     <table width="90%">
     <tr>
@@ -402,6 +403,9 @@ export default {
         "registry.identificativoN" () {
             this.createSimplePdf()
         },
+        "registry.identificativoRilasciato" () {
+            this.createSimplePdf()
+        },
         "registry.sottoscritto" () {
             this.createSimplePdf()
         },
@@ -471,7 +475,7 @@ export default {
         },
         getPdf() {
             axios
-                .get('templatePdf/autodichiarazione.jpg',{
+                .get('templatePdf/modello_autodichiarazione_editabile_ottobre_2020.jpg',{
                     responseType: 'arraybuffer',
                 })
                 .then(response => {
@@ -503,7 +507,7 @@ export default {
         },
         getConfigJson() {
             axios
-                .get('configTemplate/autodichiarazione.json',{
+                .get('configTemplate/modello_autodichiarazione_editabile_ottobre_2020.json',{
                     
                 })
                 .then(response => {

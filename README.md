@@ -14,7 +14,7 @@ VueJs (https://vuejs.org/)
 PDFKit (https://pdfkit.org/)
 Bootstrap4 (https://bootstrap-vue.org/)
 
-The config file "comuni.json" is taked from this repository and minfied for my project scope:
+The config file "comuni.json" is taked from this repository and minfied for my project scope	:
 
 https://github.com/matteocontrini/comuni-json
 
